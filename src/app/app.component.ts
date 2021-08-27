@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'WeatherX';
+  cities = ["Lagos", "London", "Abuja"]
 }

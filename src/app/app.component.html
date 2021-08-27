@@ -26,10 +26,12 @@
 
 
   <div class="card-container">
-    <weather-card [city]="'Lagos'"></weather-card>
-    <weather-card [city]="'London'"></weather-card>
-    <weather-card [city]="'Abuja'"></weather-card>
+
+    <weather-card *ngFor="let city of cities" [city]="city"></weather-card>
+
   </div>
+
+
 
 
   <footer-weather></footer-weather>
