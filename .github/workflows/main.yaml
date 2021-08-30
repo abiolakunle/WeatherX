@@ -28,5 +28,5 @@ jobs:
       - name: Push build to release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "dist/angular-githubaction/*"
+          artifacts: "dist/weather-app/*"
           token: ${{ secrets.TOKEN }}
